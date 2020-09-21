@@ -2,7 +2,7 @@
 ## JantaHack Cross Sell Prediction  using CatBoost Classifier Model
 
 ### LB - https://datahack.analyticsvidhya.com/contest/janatahack-cross-sell-prediction/#LeaderBoard
-#### Public Rank - 72 (0.8584359852)
+#### Public Rank - 72 (0.8584736363)
 #### Private Rank - 58 (0.8632359852)
 
 ### Problem Statement
