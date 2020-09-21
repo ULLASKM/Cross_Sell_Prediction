@@ -5,7 +5,7 @@
 ### Public Rank - 72
 ### Private Rank - 58
 
-## Problem Statement
+### Problem Statement
 Your client is an Insurance company that has provided Health Insurance to its customers now they need your help in building a model to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company.
 
 An insurance policy is an arrangement by which a company undertakes to provide a guarantee of compensation for specified loss, damage, illness, or death in return for the payment of a specified premium. A premium is a sum of money that the customer needs to pay regularly to an insurance company for this guarantee.
@@ -15,3 +15,10 @@ Just like medical insurance, there is vehicle insurance where every year custome
 Building a model to predict whether a customer would be interested in Vehicle Insurance is extremely helpful for the company because it can then accordingly plan its communication strategy to reach out to those customers and optimise its business model and revenue.
 
 Now, in order to predict, whether the customer would be interested in Vehicle insurance, you have information about demographics (gender, age, region code type), Vehicles (Vehicle Age, Damage), Policy (Premium, sourcing channel) etc.
+
+### Model approach
+1) it is a binary classification problem to predict whether the customer is interested in Vehicle insurance or not.
+2) Data had more categorical features than numerical features which were encoded using label encoder.
+3) firstly tried with LGBM classifier which resulted only 83.2 AUC Score.
+4) Therefore it was obivious to select Catboost classifier which deals categorical features better without even required to preprocessing.
+5) By hyperparameter tuning with max_depth,l2 regularizer and learning rate it was possible to achieve the maximum AUC score and minimize Logloss.
