@@ -4,6 +4,7 @@
 ### LB - https://datahack.analyticsvidhya.com/contest/janatahack-cross-sell-prediction/#LeaderBoard
 #### Public Rank - 72 (0.8584736363)
 #### Private Rank - 58 (0.8632359852)
+#### Kaggle - https://www.kaggle.com/ullaskm/cross-sell-prediction-using-catboost-classifier
 
 ### Problem Statement
 Your client is an Insurance company that has provided Health Insurance to its customers now they need your help in building a model to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company.
